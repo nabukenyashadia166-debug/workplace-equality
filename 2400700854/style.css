@@ -1,0 +1,168 @@
+*{
+    background: #fafafa;
+    box-sizing: border-box;
+    margin: 0;
+    text-align: left;
+    font-family: 'Trebuchet MS';
+}
+.header h1{
+width: 150px;
+height: 1.5;
+text-align: center;
+justify-content: center;
+background-color: blueviolet;
+}
+.banner div{
+    display: block;
+    width: 100%;
+    background-color: blueviolet;
+}
+.image{
+    width: 100%;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    background-color: blueviolet;
+}
+.banner h2{
+    font-size: 50px;
+    padding: 50px 0 30px 0;
+    background-color: blueviolet;
+}
+.banner p{
+    padding: 0 20px 20px 20px;
+    background-color: blueviolet;
+}
+.banner ul,li{
+    padding: 0 20px 20px 20px;
+    background-color: blueviolet;
+
+}
+.footer{
+    
+    
+    padding: 12px 0;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 40px;
+}
+.Text h2{
+    font-size: 50px;
+    padding: 50px 0 30px 0;
+    color: blue;
+    background-color: blueviolet;
+}
+.Text h3 {
+font: size 50px; 
+padding: 50px 0 30px 0;
+color:skyblue;
+background-color: blueviolet;
+}
+    
+
+
+.video{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    background-color: blueviolet;
+}
+.feedback h2{
+padding: 50px 20px 30px 20px;
+color: blueviolet;
+font-size: 50px;
+text-align: center;
+margin-bottom: 10px;
+}
+.feedback button{
+    padding: 30PX 10PX 30PX 10PX;
+    height: fit-content;
+    
+}
+.feedback h3{
+    padding: 0 20px 20px 20px;
+    color: blue;
+    font-size: 30px;
+    
+}
+.feedback button[type="submit"]{
+    width: 60%;
+    color: black;
+    font-size: 16px;
+    align-items: center;
+    
+    padding: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    
+}
+.feedback textarea{
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+border-radius: 6px;
+border: 1px solid #ccc;
+
+    
+}
+.Text p{
+padding: 0 20px 20px 20px;
+background-color: blueviolet;
+}
+.features h1{
+    color: black;
+    font-size: 30px;
+    background-color: bisque;
+    padding: 0 20px 20px 20px;
+}
+.features nav{
+    padding: 0 20px 20px 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    color: black;
+}
+.rights{
+    text-align: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    background-color: blueviolet;
+
+}
+.last{
+    text-align: center;
+    margin-bottom: 25px;
+padding: 20px 20px 20px;
+background-color: blueviolet;
+
+    
+    
+}
+.feedback{
+    background: white;
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px;
+    background-color: blueviolet;
+}
+.feedback p{
+    text-align: center;
+    margin-bottom: 25px;
+    
+
+}
+.feedback form label{
+font-weight: bold;
+color: #555;
+}
+.contact-info{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: blue;
+}
+.feeback
