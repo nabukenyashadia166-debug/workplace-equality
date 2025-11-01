@@ -4,32 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact us</title>
+    <link rel="stylesheet" href="https://cdn.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="bg-light">
     <header>
-        <h1>contact us</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">contact</a>
+        
+        <nav id="nav-container">
+            <p>WORKPLACE EQUALITY</p>
+            <ul>
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+                 
+            
+            
+            
+           
         </nav>
     </header>
-    <section class="feedback">
+    <section class="banner">
+        <h1 class="text-center text-primary mb-4" id="contact">contact us</h1>
        <h2>join us</h2> 
       <h3>we'd love to hear from you!</h3>
-      <form action="input">
+      <form action="input" class="p-4 border rounded bg-white shadow">
+        <div class="mb-3">
         <input type="text" placeholder="fullname" required><br>
-        <label for="message">Message:</label><br>
-        <textarea name="message" id="message" rows="5" wrap="soft" required></textarea><br>
-        <button type="submit" value="SEND">
-      </form>
-      <div class="conttact-info">
-       <p>follow us:
-        <a href="https//facebook.com" target="_blank">facebook</a>
-        <a href="https//twitter.com" target="_blank">twitter</a>
-        </p>
         </div>
+        <div class="mb-3">
+        <label for="message" class="form-label">Message:</label><br>
+        <textarea name="message" id="message" rows="5" wrap="soft" required class="form-control"></textarea><br>
+        </div>
+        <button type="submit" value="SEND" class="btn btn-primary w-100" class="btn">SEND</button>
+      </form>
+     
         </section>
     
         
@@ -37,6 +47,12 @@
 
 
        <footer class="last">
+         <div class="conttact-info">
+       <p>follow us:<br>
+        <a href="https//facebook.com" target="_blank">facebook</a><br>
+        <a href="https//twitter.com" target="_blank">twitter</a>
+        </p>
+        </div>
         <p>email: <a href="mail to: shadia@workplaceequality.org">shadia@workplaceequality.org</a>
             
 
